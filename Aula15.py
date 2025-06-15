@@ -2,7 +2,7 @@
 #print(f'seu nome é {nome}')
 
 numero_1= input('Digite um numero: ')
-numero_2 = input('Digite um numero: ')
+numero_2 = input('Digite um num: ')
 
 int_numero_1 = int(numero_1)
 int_numero_2 = int(numero_2)
