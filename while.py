@@ -1,4 +1,20 @@
-num = 0
-while num <= 10:
-    print(num)
-    num = num + 1
+"""
+aprendizagem do uso do while em python
+com o continue
+"""
+
+contador = 0
+
+while contador <= 100:
+    contador += 1
+
+    if contador>= 10 and contador <= 27:
+        print('não vou mostrar o', contador)
+        continue
+
+    print(contador)
+
+    if contador == 40:
+        break
+
+print('acabou')
