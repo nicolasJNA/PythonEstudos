@@ -21,11 +21,11 @@ print(lista)
 
 lista[1] = 5
 del lista[3]
-lista.append(15)
-lista.append(89)
-lista.append(100)
-ultimo_valor = lista.pop()
-print(ultimo_valor)
+# lista.append(15)
+# lista.append(89)
+# lista.append(100)
+# ultimo_valor = lista.pop()
+# print(ultimo_valor)
 print(lista)
 
 lista.insert(0,'nicolas')

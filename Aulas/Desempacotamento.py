@@ -1,5 +1,5 @@
 """
-introdução a tuplas e desempacotamento
+desempacotamento
 """
 #o uso da _ serve para se comunicar com outro programador avisando que n usará a variavel
 
