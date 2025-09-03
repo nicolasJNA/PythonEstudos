@@ -7,7 +7,7 @@ cont = 0
 estrato = []
 
 def sacar(saldo_atual):
-    retirar = float(input("Digite o valor para o saque: "))
+    retirar = float(input("Digite o valor para o saque:"))
     if retirar > 500:
         print("Valor ultrapassa o limite permitido (R$500.00)")
         return 0
