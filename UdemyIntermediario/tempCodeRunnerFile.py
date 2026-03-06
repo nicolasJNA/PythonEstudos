@@ -1,1 +1,1 @@
-epcopy(produtos)
+ador + produto['preco']
