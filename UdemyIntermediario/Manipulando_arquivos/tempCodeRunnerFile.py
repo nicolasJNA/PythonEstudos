@@ -1,0 +1,1 @@
+os.unlink(caminho_aquivo)
