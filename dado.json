@@ -1,0 +1,23 @@
+{
+  "nome": "Nicolas",
+  "idade": 22,
+  "endereco": [
+    {
+      "rua": "Frederico Evandro",
+      "numero": 155
+    },
+    {
+      "rua": "Leonardo Coelho",
+      "numero": 441
+    }
+  ],
+  "altura": 2.25,
+  "numero_da_sorte": [
+    4,
+    5,
+    17,
+    21
+  ],
+  "dev": "no caminho",
+  "null": null
+}
