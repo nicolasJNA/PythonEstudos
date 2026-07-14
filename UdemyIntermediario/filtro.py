@@ -13,7 +13,7 @@ lista_nova = [
     {'nome':elementos['nome'], 'preco': elementos['preco']*1.05}   
     if elementos['preco'] > 20 else {**elementos}
     for elementos in lista
-    if elementos['preco'] < 20
+    if elementos['preco'] > 20
 ]
 
 p(lista_nova)

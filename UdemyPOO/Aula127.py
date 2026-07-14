@@ -1,4 +1,5 @@
 # @property - um getter no modo Pythonico
+# é um metodo que se comporta como um atributo
 # GErealmente é usada nas seguintes situações:
 # - como getter 
 # - p/ evitar quebra código cliente
