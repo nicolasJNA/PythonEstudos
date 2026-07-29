@@ -10,8 +10,6 @@ class Pessoa:
     def get_ano_nascimento(self):
         return Pessoa.ano_atual - self.idade
     
-dados = {'nome': 'Nicolas', 'idade': 22}
-p1 = Pessoa(**dados)
-os.system('clear')
+p1 = Pessoa('nicolas',22)
 print(p1.__dict__)
 print(vars(p1))

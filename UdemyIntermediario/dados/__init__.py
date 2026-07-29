@@ -1,1 +1,1 @@
-from dados import produtos_modulo
+from dados.produtos_modulo import produtos_modulo 

@@ -44,14 +44,11 @@ caminho_aquivo += 'manipulando_arq.txt'
 
 # print(type(arquivo))
 
-with open(caminho_aquivo,'w') as arquivo:
-    arquivo.write('ATENÇÃO\n')
-    arquivo.write('Linha 1\n')
-    arquivo.writelines(
-        ('linha 3\n','linha 4\n')
-    )
+# with open(caminho_aquivo,'w+') as arquivo:
+#     print(arquivo.read())
+    
 
 # os.unlink(caminho_aquivo)
-os.remove('aula116-2.txt')
+# os.remove('aula116-2.txt')
 
 # os.rename(caminho_aquivo,'aula116-2.txt')
