@@ -8,11 +8,11 @@
 # Código cliente é o codigo que usa seu codigo
 class Caneta:
     def __init__(self, cor):
-        self.cor_tinta = cor
+        self.cor_nova= cor
 
     @property
     def cor(self):
-        return self.cor_tinta
+        return self.cor_nova
     # def get_cor(self):
     #     return self.cor
 
