@@ -1,2 +1,0 @@
-ERROR: Qualquer coisa (LogFileMixin)
-SUCCESS: Qualquer coisa (LogFileMixin)

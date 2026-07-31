@@ -28,3 +28,4 @@ cliente1.listar_enderecos()
 del cliente1
 
 print("######CODIGO ACABOU######")
+#garbage colector é usado quando encerra o codigo
