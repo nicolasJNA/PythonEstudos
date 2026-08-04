@@ -12,9 +12,12 @@ class MyOpen:
 
     def __exit__(self, class_exception, exception, traceback):
         self._arquivo.close()
+
+        raise class_exception('Mensagem de error')
+
         print("EXIT: ARQUIVO FECHADO")
 
 
 with MyOpen('contextManager.txt', 'w') as arquivo:
     print('WITH', arquivo)
-    arquivo.write('Linha 1\nLinha 2')
+    arquivo.write('Linha 1\nLinha 2',123)
