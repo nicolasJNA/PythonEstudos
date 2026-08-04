@@ -31,5 +31,5 @@ print(f'{coordenada2 = !r}') #__repr__
 print(f'{coordenada1 = }') # __str__
  
 soma = coordenada1 + coordenada2
-print(f'{soma=}')
+print(soma)
 print("coordenada2 > coordenada1: ",coordenada2>coordenada1)
