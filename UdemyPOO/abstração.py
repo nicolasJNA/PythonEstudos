@@ -27,7 +27,7 @@ def notificar(notificacao: Notificacao):
         print("Notificação NAO enviada")
 
 email = NotificacaoEmail("ola mundo")
-sms = NotificacaoCorreio("Oi mundo")
+sms = NotificacaoCorreio("Ola mundo")
 
 email.enviar()
 sms.enviar()
